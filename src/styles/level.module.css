@@ -1,0 +1,16 @@
+.area {
+    width: 100%;
+    composes: spaceBetween from "@/styles/utils.module.css";
+    margin-bottom: 5%;
+}
+
+.cheki {
+    background-color: var(--gray-10);
+
+    padding-top: 2%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    width: 40%;
+    height: 50%;
+    text-align: center;
+}
